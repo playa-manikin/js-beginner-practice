@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/script.js"></script>
+    <title>JS Practice!</title>
+</head>
+<body>
+   <section class="js-demo">
+        <h1 class="js-demo__title">
+            This is a JS Demo!
+        </h1>
+        <button class="js-demo__button_theme-switch" onclick="toggleDarkTheme()">Switch Theme</button>
+        <form class="calc">
+            <label for="num1">Number 1:</label>
+            <input type="text" id="num1"><br>
+      
+            <label for="num2">Number 2:</label>
+            <input type="text" id="num2"><br>
+      
+            <label for="operator">Operator:</label>
+            <select id="operator">
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+            </select><br>
+      
+            <button type="button" onclick="calculate()">Calculate</button><br>
+      
+            <label for="result">Result:</label>
+            <input type="text" id="result" readonly>
+          </form>
+   </section> 
+</body>
+</html>
